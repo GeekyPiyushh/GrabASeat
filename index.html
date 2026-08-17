@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineBook - Movie Booking</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts for modern typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation Bar(Movies theatre about home) -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="Gemini_Generated_Image_t7x5pvt7x5pvt7x5-removebg-preview.png" alt="Logo"
+                style="height: 95px; border-radius: 8px;">
+            <div class="logo-poppins">
+                <span class="text-white">Grab</span><span class="text-red">ASeat</span>
+            </div>
+        </div>
+        <nav class="nav-links">
+            <a href="#" class="active">Home</a>
+            <a href="#movies">Movies</a>
+            <a href="#theatres">Theatres</a>
+            <a href="#about">About</a>
+        </nav>
+        <button class="login-btn"><i class="fa-regular fa-user"></i> Login</button>
+    </header>
+
+    <!--  Hero paart -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Book Your Movie Experience</h1>
+            <p>Discover movies, choose your showtime, select your seats and enjoy the show.</p>
+            <button class="primary-btn">Browse Movies</button>
+        </div>
+    </section>
+
+    <!--  Search Section -->
+    <section class="search-section">
+        <div class="search-container">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input type="text" placeholder="Search for movies..." class="search-input">
+            <button class="search-btn">Search</button>
+        </div>
+    </section>
+
+    <!--  Now Showing Section -->
+    <section id="movies" class="now-showing">
+        <h2 class="section-title">Now Showing</h2>
+        <div class="movie-grid">
+
+            <div class="movie-card">
+                <img src="https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg" alt="Interstellar Poster"
+                    class="movie-poster">
+                <div class="movie-info">
+                    <h3>Interstellar</h3>
+                    <p class="genre">Sci-Fi, Adventure</p>
+                    <div class="details">
+                        <span class="duration"><i class="fa-regular fa-clock"></i> 2h 49m</span>
+                    </div>
+                    <div class="details">
+                        <span class="rating"><i class="fa-solid fa-star" style="color: #f5c518;"></i> 8.6/10</span>
+                    </div>
+                    <button class="book-btn">Book Now</button>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <img src="Inception.jpg" alt="Inception Poster" class="movie-poster">
+                <div class="movie-info">
+                    <h3>Inception</h3>
+                    <p class="genre">Sci-Fi, Thriller</p>
+                    <div class="details">
+                        <span class="duration"><i class="fa-regular fa-clock"></i> 2h 28m</span>
+                    </div>
+                    <div class="details">
+                        <span class="rating"><i class="fa-solid fa-star" style="color: #f5c518;"></i> 8.8/10</span>
+                    </div>
+                    <button class="book-btn">Book Now</button>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <img src="https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg" alt="Avengers Poster"
+                    class="movie-poster">
+                <div class="movie-info">
+                    <h3>Avengers: Endgame</h3>
+                    <p class="genre">Action, Adventure</p>
+                    <div class="details">
+                        <span class="duration"><i class="fa-regular fa-clock"></i> 3h 1m</span>
+                    </div>
+                    <div class="details">
+                        <span class="rating"><i class="fa-solid fa-star" style="color: #f5c518;"></i> 8.4/10</span>
+                    </div>
+                    <button class="book-btn">Book Now</button>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <img src="Spiderman.webp" alt="Spider-Man Poster" class="movie-poster">
+                <div class="movie-info">
+                    <h3>Spider-Man: Brand New day</h3>
+                    <p class="genre">Action, Adventure</p>
+                    <div class="details">
+                        <span class="duration"><i class="fa-regular fa-clock"></i> 2h 28m</span>
+                    </div>
+                    <div class="details">
+                        <span class="rating"><i class="fa-solid fa-star" style="color: #f5c518;"></i> 8.2/10</span>
+                    </div>
+                    <button class="book-btn">Book Now</button>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" alt="Oppenheimer Poster"
+                    class="movie-poster">
+                <div class="movie-info">
+                    <h3>Oppenheimer</h3>
+                    <p class="genre">Biography, Drama</p>
+                    <div class="details">
+                        <span class="duration"><i class="fa-regular fa-clock"></i> 3h 0m</span>
+                    </div>
+                    <div class="details">
+                        <span class="rating"><i class="fa-solid fa-star" style="color: #f5c518;"></i> 8.7/10</span>
+                    </div>
+                    <button class="book-btn">Book Now</button>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="Dune.jpg" alt="Dune 1" class="movie-poster">
+                <div class="movie-info">
+                    <h3>Dune: Part One</h3>
+                    <p class="genre">Sci-Fi, Adventure</p>
+                    <div class="details">
+                        <span class="duration"><i class="fa-regular fa-clock"></i> 2h 46m</span>
+                    </div>
+                    <div class="details">
+                        <span class="rating"><i class="fa-solid fa-star" style="color: #f5c518;"></i> 8.5/10</span>
+                    </div>
+                    <button class="book-btn">Book Now</button>
+                </div>
+            </div>
+
+
+            <div class="movie-card">
+                <img src="Dune part 2.jpg" alt="Dune 2 Poster" class="movie-poster">
+                <div class="movie-info">
+                    <h3>Dune: Part Two</h3>
+                    <p class="genre">Sci-Fi, Adventure</p>
+                    <div class="details">
+                        <span class="duration"><i class="fa-regular fa-clock"></i> 2h 46m</span>
+                    </div>
+                    <div class="details">
+                        <span class="rating"><i class="fa-solid fa-star" style="color: #f5c518;"></i> 8.5/10</span>
+                    </div>
+                    <button class="book-btn">Book Now</button>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="shanghi.jpg" alt="Dune 2 Poster" class="movie-poster">
+                <div class="movie-info">
+                    <h3>Shang-Chi </h3>
+                    <p class="genre">Sci-Fi, Adventure</p>
+                    <div class="details">
+                        <span class="duration"><i class="fa-regular fa-clock"></i> 2h 46m</span>
+                    </div>
+                    <div class="details">
+                        <span class="rating"><i class="fa-solid fa-star" style="color: #f5c518;"></i> 8.5/10</span>
+                    </div>
+                    <button class="book-btn">Book Now</button>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="Avatar.jpg" alt="Dune 2 Poster" class="movie-poster">
+                <div class="movie-info">
+                    <h3>Avatar:Fire And Ash </h3>
+                    <p class="genre">Sci-Fi, Adventure</p>
+                    <div class="details">
+                        <span class="duration"><i class="fa-regular fa-clock"></i> 2h 46m</span>
+                    </div>
+                    <div class="details">
+                        <span class="rating"><i class="fa-solid fa-star" style="color: #f5c518;"></i> 8.5/10</span>
+                    </div>
+                    <button class="book-btn">Book Now</button>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="Little Borther.jpg" alt="Dune 2 Poster" class="movie-poster">
+                <div class="movie-info">
+                    <h3>Little Brother </h3>
+                    <p class="genre">Sci-Fi, Adventure</p>
+                    <div class="details">
+                        <span class="duration"><i class="fa-regular fa-clock"></i> 2h 46m</span>
+                    </div>
+                    <div class="details">
+                        <span class="rating"><i class="fa-solid fa-star" style="color: #f5c518;"></i> 8.5/10</span>
+                    </div>
+                    <button class="book-btn">Book Now</button>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+    > <!-- Upcmoming section-->
+    <section class="upcoming-movies">
+        <h2 class="section-title">Upcoming Movies</h2>
+        <div class="upcoming-grid">
+
+
+            <div class="upcoming-card">
+                <img src="Deadpool.jpg" alt="Deadpool Poster" class="movie-poster">
+                <div class="movie-info">
+                    <h3>Deadpool & Wolverine</h3>
+                    <p class="release-date">Releasing: August 26, 2026</p>
+                </div>
+            </div>
+
+
+            <div class="upcoming-card">
+                <img src="paradise.webp" alt="Joker 2 Poster" class="movie-poster">
+                <div class="movie-info">
+                    <h3>The Paradise</h3>
+                    <p class="release-date">Releasing: October 4, 2026</p>
+                </div>
+            </div>
+
+            <div class="upcoming-card">
+                <img src="peddi.jpg" alt="Gladiator 2 Poster" class="movie-poster">
+                <div class="movie-info">
+                    <h3>Peddi</h3>
+                    <p class="release-date">Releasing: November 22, 2026</p>
+                </div>
+            </div>
+            <div class="upcoming-card">
+                <img src="The king's man.jpg" alt="Gladiator 2 Poster" class="movie-poster">
+                <div class="movie-info">
+                    <h3>The KIng's Man</h3>
+                    <p class="release-date">Releasing: November 22, 2026</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 6. Footer -->
+    <footer id="about" class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">CineBook</div>
+            <div class="footer-links">
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <h4>&copy; 2024 CineBook. All rights reserved. Designed By RunError.</h4>
+
+            <h3>RunError</h3>
+
+            <p>Piyush Tehalani </p>
+            <p>Rishi Sharma </p>
+            <p>Prarthana Tejwani</p>
+            <p>Vanshika Wadhwa</p>
+
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
